@@ -4,7 +4,7 @@ shrinkwrap-deltaspike
 Introduction
 ---------------------
 
-The target of this project is to provide a fluent API to describe deployable archives for DeltaSpike CDI Extensions using projects. To reach this goal we created an Utility Class that allows you to write the following deployment descriptor: 
+The target of this project is to provide a fluent API to describe deployable archives for JavaEE based projects that using DeltaSpike CDI Extension. To reach this goal we created an Utility Class that allows you to write the following deployment descriptor: 
 
     
 	@Deployment
@@ -13,7 +13,7 @@ The target of this project is to provide a fluent API to describe deployable arc
                 .addClass(ObjectUnderTest.class);
     }
 	
-Using only Arquillian & Shrinkwrap with Maven resolver you have to write the following deployment descriptor:
+Without this library using only Arquillian and Shrinkwrap with Maven resolver you have to write the following deployment descriptor to pack the same deployable:
 
 	@Deployment
     public static Archive<?> createArchive() throws Exception {
