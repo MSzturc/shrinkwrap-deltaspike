@@ -37,7 +37,7 @@ Without this library using only Arquillian and Shrinkwrap with Maven resolver yo
 Usage
 ---------------------
 
-To use this extension simply place the jar file into your projects classpath an your ready to start. Alternatively when you using Maven as build tool add the following dependency to your pom.xml:
+To use this extension simply place the jar file into your projects classpath and your ready to start. Alternatively when you using Maven as build tool add the following dependency to your pom.xml:
 
     <dependency>
         <groupId>de.mszturc</groupId>
@@ -52,7 +52,7 @@ To use this extension simply place the jar file into your projects classpath an 
 Technical Notes
 ---------------------
 
-For the creation of the project I used the following tools & plugins:
+To create this project we used the following tools & plugins:
 
 - Java JDK 1.8.0_25-b18 x64
 - Maven 3.1.1
